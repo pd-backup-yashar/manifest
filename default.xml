@@ -6,6 +6,9 @@
            
   <remote  name="projectdisco"
            fetch="https://github.com/ProjectDisco" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
              
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
