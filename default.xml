@@ -2,13 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com" />
            
   <remote  name="projectdisco"
-           fetch="https://github.com/ProjectDisco/" />
+           fetch="https://github.com/ProjectDisco" />
              
   <remote  name="blobs"
-           fetch="https://github.com/ThankYouMario/" />
+           fetch="https://github.com/ThankYouMario" />
            
   <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
