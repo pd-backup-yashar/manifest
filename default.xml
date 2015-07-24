@@ -6,6 +6,9 @@
            
   <remote  name="projectdisco"
            fetch="https://github.com/ProjectDisco" />
+           
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
 
   <remote  name="github"
            fetch="https://github.com" />
@@ -355,7 +358,6 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
@@ -473,5 +475,6 @@
 <project path="system/core" name="android_system_core" remote="projectdisco" revision="lollipop" groups="pdk" />
 <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="projectdisco" revision="lollipop" />
 <project path="frameworks/base" name="android_frameworks_base" remote="projectdisco" revision="lollipop" />
+<project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-12.1" />
 
 </manifest>
