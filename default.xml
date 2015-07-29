@@ -3,19 +3,19 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
-           
+
   <remote  name="projectdisco"
            fetch="https://github.com/ProjectDisco" />
-           
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod" />
 
   <remote  name="github"
            fetch="https://github.com" />
-             
+
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
-           
+
   <default revision="refs/tags/android-5.1.1_r4"
            remote="aosp"
            sync-j="4" />
@@ -33,9 +33,8 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="cm" revision="cm-12.1" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="cm" revision="cm-12.1" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms-caf" remote="cm" revision="cm-12.1" />
 
-  
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -368,6 +367,7 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
+  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
