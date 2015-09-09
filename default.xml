@@ -16,7 +16,7 @@
   <remote  name="blobs"
            fetch="https://github.com/ThankYouMario" />
 
-  <default revision="refs/tags/android-5.1.1_r15"
+  <default revision="refs/tags/android-5.1.1_r16"
            remote="aosp"
            sync-j="4" />
 
