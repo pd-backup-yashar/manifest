@@ -3,7 +3,7 @@
 ```bash
 $ mkdir projectdisco
 $ cd projectdisco
-$ repo init -u https://github.com/ProjectDisco/manifest -b lollipop
+$ repo init -u https://github.com/ProjectDisco/manifest -b marshmallow
 $ repo sync -j4
 $ . build/envsetup.sh
 $ lunch
