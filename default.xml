@@ -20,9 +20,12 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk" >
+  <!-- ProjectDisco repositories -->
+  <project path="build" name="android_build" groups="pdk" remote="projectdisco" revision="marshmallow" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="vendor/disco" name="android_vendor_disco" remote="projectdisco" revision="marshmallow" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
